@@ -8,6 +8,15 @@ package com.StripBandunk.BelajarPolimorfismeDalamGeneric.Data;
  *
  * @author Muhammad Ilham
  */
-public class Anak extends Parent {
-    
+public class Data<T extends Parent> {
+    private T data;
+   
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
 }

@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.StripBandunk.BelajarMenanganiError.Data;
+package com.StripBandunk.BelajarKelasTanpaNama.Data;
 
 /**
  *
  * @author Muhammad Ilham
  */
-public class Buah {
-    public String nama;
-    public int biji;
+public abstract class Contoh {
+    public abstract void prosedur();
+    public abstract String fungsi();
 }

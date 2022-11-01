@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package com.StripBandunk.BelajarMetodeFinal.Program;
+package com.StripBandunk.BelajarKelasTanpaNama.Program;
 
-import com.StripBandunk.BelajarMetodeFinal.Data.Child;
+import com.StripBandunk.BelajarKelasTanpaNama.Data.Contoh;
 
 /**
  *
@@ -17,9 +17,34 @@ public class Program {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Child anak = new Child();
-        anak.tampilInfo();
-        System.out.println(anak.ambilInfo());
+        Contoh contoh = new Contoh(){
+            
+            public void prosedur() {
+                System.out.println("Kelas Tanpa Nama");
+            }
+
+            
+            public String fungsi() {
+                return "Kelas tanpa nama";
+            }
+        
+        };
+        
+        Contoh contoh2 = new Contoh(){
+            
+            public void prosedur() {
+                System.out.println("Kelas Tanpa Nama 2");
+            }
+
+            
+            public String fungsi() {
+                return "Kelas tanpa nama 2";
+            }
+        
+        };
+        contoh.prosedur();
+        contoh2.prosedur();
+        
     }
     
 }

@@ -8,6 +8,6 @@ package com.StripBandunk.BelajarPewarisanInterface.Data;
  *
  * @author Muhammad Ilham
  */
-public interface Manusia extends Makan, Minum, Jalan {
-    
+public interface Minum {
+    void minum();
 }

@@ -1,22 +1,24 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.StripBandunk.Visibility.Data;
+package com.StripBandunk.BelajarPolimorfisme.Data;
 
 /**
  *
  * @author Muhammad Ilham
  */
-public class Dosen {
-    public String nip;
-    public String nama;
-    public String alamat;
-    
-    public void tampilInformasi(){
-    System.out.println("NIP : " + nip);
-    System.out.println("Nama : " + nama);
-    System.out.println("Alamat : " + alamat);
+public class Dosen extends Manusia {
+    private String nip;
+
+    public String getNip() {
+        return nip;
+    }
+
+    public void setNip(String nip) {
+        this.nip = nip;
+    }
+    public void tampilInfo(){
+    System.out.println("Dosen");
     }
 }

@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.StripBandunk.BelajarKelasFinal.Data;
+package com.StripBandunk.BelajarKelasAbstrak.Data;
 
 /**
  *
  * @author Muhammad Ilham
  */
-public class Child extends Parent {
+public class Child extends Parent{
     
 }

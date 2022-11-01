@@ -2,15 +2,27 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.BelajarVisibilityProtected.Data;
+package com.StripBandunk.BelajarPewarisanInterface.Data;
 
 /**
  *
  * @author Muhammad Ilham
  */
-public class Karyawan extends Orang{
-    public void tampilInformasi(){
-    System.out.println(super.nama);
-    System.out.println(super.alamat);
+public class Karyawan implements Manusia {
+
+    @Override
+    public void makan() {
+     System.out.println("Makan");
     }
+
+    @Override
+    public void minum() {
+    System.out.println("Minum");
+    }
+
+    @Override
+    public void jalan() {
+    System.out.println("Jalan");
+    }
+    
 }
